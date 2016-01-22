@@ -7,10 +7,6 @@ import org.scalajs.jquery.jQuery
 import org.scalajs.jquery.JQuery
 import org.scalajs.jquery.JQueryEventObject
 
-import scala.collection.mutable.ListBuffer
-import scala.concurrent.duration.FiniteDuration
-import java.util.concurrent.TimeUnit
-
 object FloodFill extends JSApp {
 
   var speed = 200
