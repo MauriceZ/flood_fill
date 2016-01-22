@@ -1,0 +1,24 @@
+#wrapper {
+  text-align: center;
+  font-family: Arial, sans-serif
+}
+
+#settings {
+  margin-bottom: 10px;
+}
+
+#grid {
+  cursor: default;
+  width: 650px;
+  height: 650px;
+  font-size: 0;
+  margin: 0 auto;
+}
+
+.tile {
+  width: 15px;
+  height: 15px;
+  margin: 1px 1px;
+  display: inline-block;
+  background-color: #00F;
+}

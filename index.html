@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flood Fill</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+  <div id="wrapper">
+    <h3>Hold your mouse over the tiles to draw and click to flood fill</h3>
+
+    <div id="settings">
+      Speed:
+      <select id="speed-switch">
+        <option value="0">0</option>
+        <option value="100">100</option>
+        <option value="200" selected>200</option>
+        <option value="500">500</option>
+      </select>
+
+      <button id="clear-btn">Clear</button>
+    </div>
+  
+    <div id="grid"></div>
+  </div>
+  
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script type="text/javascript" src="target/scala-2.10/scala-js-bfs-fastopt.js"></script>
+  <script type="text/javascript">
+    flood.FloodFill().main();
+  </script>
+</body>
+</html>
